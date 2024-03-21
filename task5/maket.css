@@ -1,0 +1,13 @@
+@import url(main.css);
+
+body {
+    margin: 0;
+    
+}
+
+.line-2 {
+    height: 43px;
+    background-color: aqua;
+    font-size: 2em;
+    text-align: center;
+}
