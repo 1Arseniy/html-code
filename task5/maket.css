@@ -2,7 +2,6 @@
 
 body {
     margin: 0;
-    
 }
 
 .line-2 {
@@ -10,4 +9,5 @@ body {
     background-color: aqua;
     font-size: 2em;
     text-align: center;
+    color: blue;
 }
