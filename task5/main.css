@@ -1,35 +1,27 @@
+
 .line-3 {
-    height: 500px;
-    width: 170px;
+    display: inline-block;
+    height: 80vh;
+    width: 12vw;
     background-color: yellow;
     background-position: left;
     font-weight: bolder;
     text-align: left;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
-.line-4 {
-    text-align: center;
-    margin-top: -500px;
-    font-weight: bolder;
-}
-
-.line-5 {
+.img-football {
+    display: inline-block;
     background-image: url(world.JPEG);
-    height: 100vh;
-    width: 100vw;
+    height: 40vh;
+    width: 60vw;
     background-repeat: no-repeat;
-    margin-left: 210px;
-    margin-top: 50px;
+    background-position: center;
 }
 
-.line-6 {
-    margin-top: -954px;
-    margin-left: 35rem;
+.line-4 {
+    font-weight: bolder;
+    text-align: center;
 }
 
-.line-7 {
-    padding-top: 70px;
-    padding-left: 200px;
-}
