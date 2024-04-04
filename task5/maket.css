@@ -1,26 +1,32 @@
 @import url(main.css);
 
 body {
-    margin: 0;
+  margin: 0;
+  
 }
 
 .line-2 {
-    display: block;
-    height: 43px;
-    background-color: aqua;
-    font-size: 2em;
-    text-align: center;
-    color: blue;
+  height: 8vh;
+  width: 100vw;
+  background-color: aqua;
+  font-size: 2em;
+  text-align: center;
+  color: blue;
 }
 
-.line-8 {
-  height: 50px;
+.line-5 {
+  height: 8vh;
+  width: 100vw;
   background-color:aqua;
-  background-position: bottom;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 40px;
   font-size: 2em;
   text-align: center;
   color: blue;
+}
+
+form ~ input {
+  display: block;
+  margin: 10px;
 }
