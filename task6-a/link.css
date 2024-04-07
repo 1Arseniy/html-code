@@ -1,0 +1,9 @@
+.fa-solid {
+    font-size: 45px;
+    margin: 5px 5px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+ i ~ a:hover {
+    color: red;
+}

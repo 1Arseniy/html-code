@@ -1,12 +1,10 @@
-.wrapper {
-    width: 800px;
-    height: 800px;
-    background-color: forestgreen;
+.my-line {
+    stroke: blueviolet;
+    stroke-width: 5px;
 }
 
-@media (max-width: 600px), (min-width: 1000px) {
-    .wrapper {
-     background-color: blue;
-    }
+svg {
+    height: 100px;
+    width: 100px;
 }
 
