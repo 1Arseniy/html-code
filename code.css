@@ -1,10 +1,28 @@
-.my-line {
-    stroke: blueviolet;
-    stroke-width: 5px;
+.wrapper {
+    display: flex;
+    height: 100vh;
 }
 
-svg {
+.div-1 {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+.div-2 {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+}
+
+.div-3 {
     height: 100px;
     width: 100px;
+    background-color: blue;
 }
 
+.div-4 {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
