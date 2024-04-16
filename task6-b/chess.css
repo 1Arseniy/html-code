@@ -21,3 +21,15 @@ tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even) {
   width: 25px;
   background-color: green;
 }
+
+body:nth-child(odd) table:nth-child(odd) .table:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even):hover {
+  background-color: white;
+}
+
+ body:nth-child(even) table:nth-child(even) .table:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd):hover {
+  background-color: white;
+ }
+ 
+ td:hover {
+  background-color: black;
+ }
