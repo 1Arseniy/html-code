@@ -17,19 +17,19 @@ tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even) {
   background-color: green;                          
 }
 
- table:first-child td:first-child, table:first-child td:last-child {
+table:first-child td:first-child, table:first-child td:last-child {
   width: 25px;
   background-color: green;
 }
 
-body:nth-child(odd) table:nth-child(odd) .table:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even):hover {
+tr:nth-child(even) td:nth-child(even):hover {
   background-color: white;
 }
 
- body:nth-child(even) table:nth-child(even) .table:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd):hover {
+tr:nth-child(odd) td:nth-child(odd):hover {
   background-color: white;
  }
  
- td:hover {
+td:hover {
   background-color: black;
  }
