@@ -3,26 +3,28 @@
     height: 100vh;
 }
 
+div:is(.div-1, .div-2, .div-3, .div-4, .div-5 ) {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 0px 5px;
+}
 .div-1 {
-    height: 300px;
-    width: 300px;
-    background-color: red;
+    background-color: yellow;
 }
 
 .div-2 {
-    height: 300px;
-    width: 300px;
     background-color: green;
 }
 
 .div-3 {
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+    background-color: yellow;
 }
 
 .div-4 {
-    height: 100px;
-    width: 100px;
-    background-color: orange;
+    background-color: green;
+}
+
+.div-5 {
+    background-color: green;
 }
