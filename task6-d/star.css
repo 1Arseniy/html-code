@@ -1,9 +1,13 @@
-div img  img:hover {
+div {
+   display: flex;
+   justify-content: start;
+   flex-direction: row-reverse;
+}   
+
+img:hover {
    background-image: url(star-2.jpg);
-   background-repeat: no-repeat;
 }
 
-/* div > img:hover {
+img:hover ~ iimg {
    background-image: url(star-2.jpg);
-   background-repeat: no-repeat;
-} */
+}   
