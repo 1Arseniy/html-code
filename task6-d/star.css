@@ -1,0 +1,9 @@
+div img  img:hover {
+   background-image: url(star-2.jpg);
+   background-repeat: no-repeat;
+}
+
+/* div > img:hover {
+   background-image: url(star-2.jpg);
+   background-repeat: no-repeat;
+} */
