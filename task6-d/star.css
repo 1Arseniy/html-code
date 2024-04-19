@@ -8,6 +8,6 @@ img:hover {
    background-image: url(star-2.jpg);
 }
 
-img:hover ~ iimg {
+img:hover ~ img {
    background-image: url(star-2.jpg);
 }   
