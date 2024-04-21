@@ -4,6 +4,6 @@
     vertical-align: -webkit-baseline-middle;
 }
 
- i ~ a:hover {
+ a:hover {
     color: red;
 }
