@@ -1,0 +1,19 @@
+.section {
+    border: 1px solid red;
+    height: 150px;
+    background-color: #4e4f4d;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.div-LogIn-Join {
+    justify-content: space-between;
+    border: 1px solid magenta;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
