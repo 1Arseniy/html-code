@@ -1,11 +1,24 @@
+.body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    grid-template-areas: 
+    "header"
+    "nav"
+    ;
+}
+
 .form-1-text input {
     display: block;
     margin: 10px 0;
     width: 50vw;
     height: 5vh;
 }
-
 .form-1 {
+    grid-area: nav;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -15,7 +28,16 @@
     font-size: larger;
 }
 
+.nav-join {
+    display: flex;
+}
+
 .form-link {
     font-size: small;
     text-decoration: none;
+}
+
+.form-1-submit {
+    justify-content: center;
+
 }

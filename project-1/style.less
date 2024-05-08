@@ -1,0 +1,17 @@
+@import url(./header/header.less);
+@import url(./main/main.less);
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer"
+    ;
+}
+
