@@ -1,24 +1,26 @@
-.section-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-
+.header {
+    border: 1px solid red;
+    grid-area: header;
+    height: 150px;
+    background: #4e4f4d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-
-.section-1 {
-    border: 1px solid red;
-    height: 150px;
-    background-color: #4e4f4d;
-    display: flex;
-    justify-content:flex-end;
-    align-items: center;
+.header-section-1 {
     padding: 0px 30px;
 }
 
-.div-LogIn-Join {
+.header-nav-logIn-join {
     border: 1px solid magenta;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+
+button {
+    border-radius: 30px;
+    margin: 10px 20px;
+    padding: 8px 20px;
 }
 

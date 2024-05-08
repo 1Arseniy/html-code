@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form.less">
+    <link rel="stylesheet/less" type="text/css" href="form.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
     <title>Зарегестрироваться</title>
 </head>
-<body>
+<body class="body">
     <section class="form-1">
         <p>Зарегестрироваться</p>
         <form action="" method="post" class="form-1-text">
@@ -16,9 +18,9 @@
             <input type="password" placeholder="Подтвердите пароль">
             <input class="form-1-submit" type="submit" value="Зарегестрироваться">
         </form>
-        <div>
-            <a href="form-2.html" class="form-link">Войти</a> 
-        </div>
+        <nav class="nav-join">
+            <a href="form-2.html" class="form-link"><button>Войти</button></a> 
+        </nav>
     </section>
 </body>
 </html>
