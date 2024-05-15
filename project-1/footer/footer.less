@@ -3,32 +3,48 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     grid-area: footer;
     background: #4e4f4d;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: 
+    "footer-section-1 footer-section-2  footer-section-3" ;
 }
 
+.footer-section-1 {
+    grid-area: footer-section-1;
+}
+
+.footer-section-2 {
+    grid-area:  footer-section-2;
+}
+
+.footer-section-3 {
+    grid-area: footer-section-3;
+}
+
+.footer section {
+    display: flex;
+    flex-direction: column;
+}
 
 .footer-section-p {
     border-bottom: 1px solid white;
     color:  white;
-    width: 250px;
-    margin: 20px 50px;
+    width: 450px;
+    margin: 10px 50px;
     padding: 10px 0;
 }
 
 .footer-link {
     color: white;
-    margin: 20px 50px;
-    padding: 20px 0;
+    margin: 0 50px;
+    padding: 10px 0;
     text-decoration: none;
 }
 
-.footer-section-2 {
-    height: 30vh;
-    width: 20vw;
-    display: flex;
-    align-items: flex-start;
+.footer-nav {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
 }
 
-.footer-section-4 {
-    display: flex;
-    
-}
