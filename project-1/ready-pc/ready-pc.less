@@ -5,12 +5,12 @@ body {
     background: #aaaba9;
     display: grid;
     height: 100vh;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto;
     grid-template-rows: repeat(2, 1fr);
 
     grid-template-areas: 
-   "header header"
-   "main main"
+   "header"
+   "main"
    ;
 }
 
@@ -21,7 +21,6 @@ div {
 .main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     grid-area: main;
-    background: #aaaba9;
     display: grid;
     row-gap: 50px;
     grid-template-columns: repeat(3, 1fr);
