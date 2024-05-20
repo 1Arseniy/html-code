@@ -3,15 +3,6 @@
 body {
     margin: 0;
     background: #aaaba9;
-    display: grid;
-    height: 100vh;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(2, 1fr);
-
-    grid-template-areas: 
-   "header"
-   "main"
-   ;
 }
 
 div {
@@ -30,30 +21,25 @@ div {
     "img-1 section-1 div-1"
     "img-2 section-2 div-2"
     "img-3 section-3 div-3"
+    "img-4 section-4 div-4"
     ;
 
 }
 
-.main-section-1-img{
+.main-span-1-img{
     border-radius: 25px;
     height: 300px;
     width: 300px;
     margin: 50px 50px;
 }
 
-
 .main-button {
-    background-color: white;
-    border-radius: 10px;
+    border-radius: 30px;
     margin: 5px 10px;
-    padding: 8px 10px;
-    font-size: 10px;
+    padding: 8px 15px;
+    font-size: 13px;
 }
 
-.main-button:hover {
-    background-color: #4e4f4d;
-    color: white;
-}
 
 .main-section-3-div {
     font-size: 30px;
@@ -105,5 +91,21 @@ div {
 
 .main-div-3 {
     grid-area: div-3;
+    margin: 30px 0;
+}
+
+.main-img-4 {
+    grid-area: img-4;
+    display: flex;
+    justify-content: center;
+}
+
+.main-section-4 {
+    grid-area: section-4;
+    margin: 30px 0;
+}
+
+.main-div-4 {
+    grid-area: div-4;
     margin: 30px 0;
 }

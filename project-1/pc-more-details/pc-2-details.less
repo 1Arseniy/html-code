@@ -1,0 +1,45 @@
+@import url(../header/header.less);
+
+body {
+   margin: 0;
+   background: #aaaba9;
+}
+
+.main {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   
+   grid-template-areas: 
+   "img section"
+   ;
+ }
+ 
+ .main-section {
+   grid-area: section;
+   margin: 5px 10px;
+}
+
+.main-span {
+   grid-area: img;
+   border-radius: 25px;
+   height: 300px;
+   width: 300px;
+   margin: 50px 50px;
+}
+
+div {
+   margin: 5px 10px;
+   padding: 8px 10px;
+}
+
+.main-div {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+
+.main-section-div {
+   font-size: 30px;
+   font-weight: 900;
+}
