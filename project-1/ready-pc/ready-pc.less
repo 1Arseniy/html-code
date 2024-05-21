@@ -13,8 +13,8 @@ div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     grid-area: main;
     display: grid;
-    row-gap: 50px;
-    grid-template-columns: repeat(3, 1fr);
+    row-gap: 100px;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(3, 1fr);
 
     grid-template-areas: 
@@ -35,15 +35,22 @@ div {
 
 .main-button {
     border-radius: 30px;
-    margin: 5px 10px;
+    margin: 5px 20px;
     padding: 8px 15px;
     font-size: 13px;
 }
 
 
-.main-section-3-div {
+.main-section-div {
     font-size: 30px;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.main-div-nav {
+   display: flex;
+   justify-content: center;
 }
 
 .main-img-1 {
