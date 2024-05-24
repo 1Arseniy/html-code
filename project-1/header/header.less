@@ -2,13 +2,19 @@
    grid-area: header;
    height: 150px;
    background: #4e4f4d;
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+   grid-template-rows: auto;
+
+   grid-template-areas: 
+   "logo nav";
+}
+
+.header-section {
+   padding: 0px 30px;
    display: flex;
    justify-content: flex-end;
    align-items: center;
-}
-
-.header-section-1 {
-   padding: 0px 30px;
 }
 
 button {
@@ -24,12 +30,17 @@ button {
 }
 
 button:hover {
-   background-color: grey;
+   background-color: #858585;
    transition: background-color 300ms ease-in;
 }
 
-.header-nav-select {
-   border-radius: 30px;
-   margin: 10px 20px;
-   padding: 8px 20px;
+.header-section-div {
+   margin: 0 10px;
+   display: flex;
+   align-items: center;
+}
+
+.header-section-img {
+   height: 100px;
+   width: 100px;
 }
